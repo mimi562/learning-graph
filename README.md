@@ -1,3 +1,3 @@
-# learning-graph //ONGOING PROJECT
-aim: use D3.js for data visualization optimized for displaying learning content.
-Styles sheets and images needs to be set inside folders "styles" and "pictures"
+# learning-graph //ONGOING PROJECT To help people who need the whole subject perception in order to learn, aka right-brain learners.
+# aim: use D3.js for data visualization optimized for displaying learning content.
+# Notes: styles sheets and images must be placed for now inside folders "styles" and "pictures" in order to work.
