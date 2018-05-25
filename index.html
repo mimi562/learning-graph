@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+	
+<head>
+	<!-- Le titre: apparaît dans l'onglet de la page -->
+	<title>Right Brain Campus</title>
+
+	<!-- DEBUT DES METADATAS -->
+
+	<!-- IMPORTANT POUR LES WEBSITES RESPONSIVES: qui s'adaptent aux plus grands nombres d'écrans du marché -->
+	<!-- Site réalisé en suivant une approche MOBILE FIRST -->
+
+
+	<!--1/VIEWPORT:  Empêcher les comportements par défaut des dispositifs qui agissent sur le Viewport: fenêtre d'affichage
+	 sur l'écran dont la taille dépend du navigateur.
+			*** configurer le viewport pour qu'il utilise les dimensions de l'écran de l'appareil
+			*** empêcher la scalarisation du contenu affiché-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta  charset="utf-8" lang="fr">
+
+	<meta description="Application proposant des résumés de cours pour les personnes neurodroitières sous forme de carte 2D: Développement Web, projet, HTML, CSS, Javascript">
+
+	<meta author="Myriam Rouve">
+	<!-- FIN METADATAS -->
+
+
+
+	<!-- RENDONS INTERNET EXPLORER  VERSIONS 8 ET ANTERIEURE CAPABLE DE COMPRENDRE HTML5-->
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+
+	<!-- DEBUT DES FEUILLES DE STYLE -->
+
+	<!-- CHARGEMENT DES POLICES DE CARACTERE -->
+	<link rel="stylesheet" href="styles/fonts.css">
+
+	<!-- Au cas où on tombe sur IE6 donc sur un desktop assez ancien: mise en page fluide à l'ancienne -->
+	<!--[if IE6]> <link rel="stylesheet" href="styles/internet-explorer-6-liquid.css" type="text/css" media="screen" /> <![endif]-->
+
+
+
+	<!-- CHARGEMENT DU CSS POUR LA VERSION PAR DEFAUT/ VERSION MOBILES -->
+	<link rel="stylesheet" href="styles/default_phone.css">
+
+	<!-- CHARGEMENT DU CSS POUR LES TABLETTES ET PETITS ECRANS-->
+	<link rel="stylesheet" media="only screen and (min-width : 568px)" href="styles/tablet.css">
+
+	<!-- CHARGEMENT DU CSS POUR LES DESKTOPS ET LES TABLETTES LARGES-->
+	<link rel="stylesheet" media="only screen and (min-width : 992px)" href="styles/desktop.css">	
+
+	<!-- CHARGEMENT DU CSS POUR LES TV et grands ECRANS-->
+	<link rel="stylesheet" media="only screen and (min-width : 1200px)" href="styles/bigScreen.css">
+
+
+
+	<!-- CHARGEMENT DES ICONS FONTAWESOME -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+
+<body>
+
+
+	<header id="header">
+		
+		
+		<img id="brain_logo"  src="pictures/logo.svg" alt="logo de Right Brain Campus">
+		<!--add some texte that wil be same color as background to enable Hide and Show header on Scroll-->
+		<p id="magic">Magic</p>
+		<div id="share-container">
+			<i class="fa fa-facebook-square" style="font-size:1.5em;color:blue;margin-bottom: 0.5em;"></i>
+			<i class="fa fa-twitter-square" style="font-size:1.5em;color:green;margin-bottom: 0.5em;"></i>
+			<i class="fa fa-instagram" style="font-size:1.5em;color:red;margin-bottom: 0.5em;"></i>
+		</div>
+		
+	
+	</header>
+
+	<main>
+		
+	
+		<section>
+			<div id="mathematiques"  class="thumbnail"><div id="icon-container"><i id="fa" class="fa fa-calculator"></i></div><h3>MATHS</h3></div>
+			<div id="français"  class="thumbnail two"><div id="icon-container"><i id="fa" class="fa fa-book"></i></div><h3>FRANÇAIS</h3></div>
+			
+		</section>
+		<section>
+			<div id="anglais" class="thumbnail three"><div id="icon-container"><i id="fa" class="fa fa-flag"></i></div><h3>ANGLAIS</h3></div>
+			<div id="histoire" class="thumbnail four"><div id="icon-container"><i id="fa" class="fa fa-key"></i></div><h3>HISTOIRE</h3></div>
+			
+		</section>
+		<section>
+			<div id="geograpĥie" class="thumbnail"><div id="icon-container"><i id="fa" class="fa fa-globe"></i></div><h3>GEOGRAPHIE</h3></div>
+			<div id="arts" class="thumbnail two"><div id="icon-container"><i id="fa" class="fa fa-keyboard-o"></i></div><h3>INFORMATIQUE</h3></div>
+			
+		</section>
+		
+
+
+	</main>
+
+	<footer>
+		<p>Confidentialités</p>
+		<p>Contacts</p>
+	</footer>
+
+<!-- START OF SCRIPTS-->
+
+<!-- TRANSPILER Babel: !!!SLOW!!! permet de traduire ECSMA 2015 pour les browsers avec un moteur JS plus ancien  -->
+<!-- NOTE: changer Javascript pour babel dans le tag script incluant javascript -->
+<!--<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>-->
+<script type="text/javascript" src="main.js" lang="javascript"></script>
+</body>
+
+
+</html>
