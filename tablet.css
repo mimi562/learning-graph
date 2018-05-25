@@ -1,0 +1,44 @@
+ /* Reset CSS */
+            html, body, h1, h2, h3, ul,p,div,header,main,section {
+                margin: 0;
+                padding: 0;
+            }
+
+
+main{
+	margin-top: 12em;
+	margin-bottom: 10em;
+}
+
+section{
+	width:100%;
+
+	-webkit-flex-flow:row wrap;
+	flex-flow: row wrap;
+
+	-webkit-justify-content:space-around;
+	justify-content: space-around;
+
+	-webkit-align-content:space-between;
+	align-content: space-between;
+
+	-webkit-align-items:center;
+	align-items: center;
+}
+
+.thumbnail{
+	
+	flex-flow: column;
+	
+	border-radius: 5px 5px 5px 5px;
+  font-size:
+	width:12em;
+	height: 10em;
+	padding:5%;
+	
+	
+}
+#icon-container{
+
+	border-right: none;
+}

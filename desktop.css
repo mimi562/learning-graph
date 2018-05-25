@@ -1,0 +1,58 @@
+ /* Reset CSS */
+            html, body, h1, h2, h3, ul,p,div,header,main,section {
+                margin: 0;
+                padding: 0;
+            }
+
+
+
+#brain_logo{
+	width: 30%;
+	
+}
+
+main{
+	margin-top: 10em;
+}
+section{
+	-webkit-flex-flow:row wrap;
+	flex-flow: row wrap;
+	-webkit-justify-content:space-around;
+	justify-content: space-around;
+	-webkit-align-content:space-between;
+	align-content: space-between;
+	-webkit-align-items:center;
+	align-items: center;
+}
+
+.thumbnail{
+	margin-top: 5%;
+	border-radius: 5px 5px 5px 5px;
+	width:14em;
+	height: 8em;
+	padding:5%;
+	
+	text-align: center;
+	
+	font-size: 1.5em;
+	
+}
+#icon-container{
+
+	border-right:none;
+}
+h3{
+	margin-top: 0.6em;
+	letter-spacing: 0.2em;
+}
+
+.image{
+
+	margin-top: 10%;
+	width:80%;
+	height: 50%;
+}
+
+footer{
+	
+}

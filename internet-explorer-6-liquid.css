@@ -1,0 +1,92 @@
+ /* Reset CSS */
+            html, body, h1, h2, h3, ul,p,div,header,main,section {
+                margin: 0;
+                padding: 0;
+            }
+
+
+
+body{
+	background-color: #94b894;
+}
+main{
+
+	width: 100%;
+	display: inline-block;
+	/*Grâce aux marges gauche et droite en auto, le conteneur global sera centré dans la fenêtre du navigateur*/
+    margin: 0 auto;
+}
+
+header{
+	background-color: #94b894;
+	
+	margin-bottom: 1px;
+	height:1%;
+}
+
+#brain_logo{
+	
+	float:left;
+	height: 15%;
+	width:5%;
+	margin-top:2%;
+}
+
+h1{
+	margin-left:5%;
+	font-family: beth;
+	font-size: 400%;
+	
+
+}
+
+h3{
+	text-align: center;
+	padding:2%;
+	font-size: 120%;
+}
+
+.left{
+	float:left;
+	width:30%;
+	margin-left: 2.5%;
+}
+
+
+.right{
+	float:right;
+	width: 30%;
+	margin-right: 2.5%;
+	
+}
+.middle{
+	
+	
+	margin:0% 35% 0% 35%;
+
+
+}
+
+.image{
+	margin:10%;
+	width:70%;
+	height: 50%;
+}
+
+.thumbnail{
+	background-color: #dd552c;
+	margin-top: 10%;
+	border-radius: 1em;
+	box-shadow: 0em 0.05em 0.2em 0.05em;
+	height: 300px;
+}
+
+
+footer{
+	clear:both;
+	background-color: grey;
+	margin-top:20%;
+	
+	text-align: center;
+	padding: 2%;
+}
